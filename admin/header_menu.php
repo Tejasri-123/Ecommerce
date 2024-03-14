@@ -2,7 +2,7 @@
 
 <nav class="navbar fixed-top navbar-expand-sm navbar-dark" style="background-color:rgba(0,0,0,0.5)">
   <div class="container">
-    <a href="products.php" class="navbar-brand" style="font-size:30px;font-family: 'Delius Swash Caps'">Fashion Fuse</a>
+    <a href="products.php" class="navbar-brand" style="font-size:30px;font-family: 'cursive'">Fashion Fuse</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
