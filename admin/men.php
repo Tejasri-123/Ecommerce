@@ -26,13 +26,13 @@ session_start();
     <?php
     include 'header_menu.php';
     ?>
-    
+
     <div class="d-flex justify-content-center">
-    
+
         <div class=" col-md-10  my-5 table-responsive p-5">
-        <div class="text-center pt-4 h3">
-        Men Data
-        </div>
+            <div class="text-center pt-4 h3">
+                Men Data
+            </div>
             <a name="delete" href="men_add.php?updateid=' . $id . '" class="btn btn-success" role="button">Add Product</a>
             <br>
             <br>
@@ -68,9 +68,9 @@ session_start();
 												<td><img src="../' . $picture . '" width="50" height="50"></td>
 												<td>' . $name . '</td>
 												<td>' . $price . '</td>
-                                                <td><a name="delete" href="men_update.php?updateid=' . $id . '?>&category=men" class="btn btn-success" role="button">Update</a></td>
+                                                <td><a name="delete" href="update.php?updateid=' . $id . '?>&category=men" class="btn btn-success" role="button">Update</a></td>
 									
-                                                <td><a name="delete" href="men_delete.php?updateid=' . $id . '?>&category=men" class="btn btn-danger" role="button">Delete</a></td>';
+                                                <td><a name="delete" href="delete.php?updateid=' . $id . '?>&category=men" class="btn btn-danger" role="button">Delete</a></td>';
                     }
 
                     ?>

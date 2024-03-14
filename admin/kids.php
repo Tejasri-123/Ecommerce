@@ -67,9 +67,9 @@ session_start();
 												<td><img src="../' . $picture . '" width="50" height="50"></td>
 												<td>' . $name . '</td>
 												<td>' . $price . '</td>
-                                                <td><a name="upate" href="men_update.php?updateid=' . $id . '?>&category=kids" class="btn btn-success" role="button">Update</a></td>
+                                                <td><a name="upate" href="update.php?updateid=' . $id . '?>&category=kids" class="btn btn-success" role="button">Update</a></td>
 									
-                                                <td><a name="delete" href="men_delete.php?updateid=' . $id . '?>&category=kids" class="btn btn-danger" role="button">Delete</a></td>';
+                                                <td><a name="delete" href="delete.php?updateid=' . $id . '?>&category=kids" class="btn btn-danger" role="button">Delete</a></td>';
                     }
 
                     ?>
