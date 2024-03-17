@@ -20,14 +20,14 @@ Welcome to My E-Commerce Web Application project!
 
 
 
-## Introduction
+## [Introduction](https://github.com/Tejasri-123/Ecommerce/blob/main/README.md#introduction)
 
 Fashion Fuse is an ecommerce web application designed to provide users with a convenient and 
 user-friendly platform for browsing and purchasing fashion products. The application includes 
 features for both users and administrators, allowing for seamless management of products and 
 orders. 
 
-## Features
+## [Features](https://github.com/Tejasri-123/Ecommerce/blob/main/README.md#features)
 
 **User Signup and Login**: New users can create an account by providing their name, email address, 
 and password. They can securely log in using their email address and password, with JWT token 
@@ -45,7 +45,7 @@ order and make a purchase through the application.
 data and add products to the application. They can add new products, update existing product 
 information, and remove products that are no longer available.
 
-## Technologies Used
+## [Technologies Used](https://github.com/Tejasri-123/Ecommerce/blob/main/README.md#technologies-used)
 
 - Frontend: HTML, CSS, JavaScript
 - Backend: PHP
@@ -53,7 +53,7 @@ information, and remove products that are no longer available.
 - Authentication: JWT (JSON Web Tokens)
 - Hosting: AWS EC2
   
-## Architecture
+## [Architecture](https://github.com/Tejasri-123/Ecommerce/blob/main/README.md#architecture)
 
 **Frontend**: The frontend of the application is built using HTML, CSS, and JavaScript. 
 The frontend of the application, built using HTML, CSS, and JavaScript, is enhanced with the use 
@@ -74,7 +74,7 @@ structured to efficiently store and manage data, ensuring fast and reliable acce
 The database schema includes tables for storing user accounts, product details, and order 
 information, with relationships defined between them to maintain data integrity.
 
-## Database Schema And Setup Instructions
+## [Database Schema And Setup Instruction](https://github.com/Tejasri-123/Ecommerce/blob/main/README.md#database-schema-and-setup-instructions)
 
  ### Database Schema 
 The database schema I have designed for the Ecommerce Apllication as shown in the below picture
@@ -89,7 +89,8 @@ The database schema I have designed for the Ecommerce Apllication as shown in th
 - Import the 'ecommerce.sql' file into the 'ecommerce' database.
 - Connect the database to the application by changing the username and password in the 'common.php' file.
 
-## Users
+## [Users](https://github.com/Tejasri-123/Ecommerce/blob/main/README.md#users)
+
 **User Registration**
 To register as a user, click on the "Signup" button located in the top navigation bar. This will 
 redirect you to the registration page where you can fill out the registration form with your details. 
@@ -120,7 +121,7 @@ In the cart page, review the items in your cart to ensure everything is correct.
 satisfied with your selection, click on the "confirm order" button to proceed with placing your 
 order. Here you can remove items from your cart if you don’t want them.
 
-## Admin 
+## [Admin](https://github.com/Tejasri-123/Ecommerce/blob/main/README.md#admin)
 
 **User Management**
 Administrators can view a list of all user accounts registered on the platform.  
@@ -134,7 +135,7 @@ price changes or descriptions, and remove products that are no longer available.
 The order management feature enables administrators to view and manage orders placed by 
 users. 
 
-# Application Preview
+# [Application Preview](https://github.com/Tejasri-123/Ecommerce/blob/main/README.md#application-preview)
 
 ### Home Page
 
@@ -188,7 +189,7 @@ users.
 ![Orders_data](https://github.com/Tejasri-123/Ecommerce/blob/main/sample/orders_Data.png)
 
 
-## Deployment on AWS EC2
+## [Deployment on AWS EC2](https://github.com/Tejasri-123/Ecommerce/blob/main/README.md#deployment-on-aws-ec2 )
 
 
 
@@ -262,7 +263,7 @@ mv * /var/www/html
 ls -lrt
 ```
 
-### To Access Application
+### [To Access Application](https://github.com/Tejasri-123/Ecommerce/blob/main/README.md#to-access-application)
 
 - Application can be accessible at
 - **User Login**: http://3.111.34.239  
